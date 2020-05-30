@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Login succesfull</h2>
+    
+    <form action="/activity/<%= user %>" method="POST" >
+        <button type="submit">Activity</button>
+    </form>
+    <form action="/usecase/<%= user %>" method="POST">
+        <button type="submit">Usecase</button>
+    </form>
+    <form action="/basicflow/<%= user %>" method="POST">
+        <button type="submit">Basic Flow Chart</button>
+    </form>
+    <button onclick="window.location.href='/login';">Logout</button>
+</body>
+</html>

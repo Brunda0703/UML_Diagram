@@ -1,0 +1,46 @@
+{
+  "name": "uml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "engines":{
+    "node": "13.12.0"
+  },
+  "dependencies": {
+    "anymatch": "^3.1.1",
+    "clone-response": "^1.0.2",
+    "compression": "^1.7.4",
+    "decompress-response": "^3.3.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "make-dir": "^3.1.0",
+    "mimic-response": "^1.0.1",
+    "minimist": "^1.2.5",
+    "mongodb": "^3.5.7",
+    "morgan": "^1.10.0",
+    "ms": "^2.1.2",
+    "nopt": "^1.0.10",
+    "normalize-path": "^3.0.0",
+    "normalize-url": "^4.5.0",
+    "p-cancelable": "^1.1.0",
+    "picomatch": "^2.2.2",
+    "prepend-http": "^2.0.0",
+    "pupa": "^2.0.1",
+    "readdirp": "^3.4.0",
+    "responselike": "^1.0.2",
+    "semver-diff": "^3.1.1",
+    "signal-exit": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start-server": "node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
